@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Project Slide Section */
+.projectslide{
+    width: 1365px;
+    height: 603px;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    flex-direction: column;
+}
+.pro-slidetop{
+    width: 1365px;
+    height: 500px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro-slidebottom{
+    width: 1365px;
+    height: 103px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.slideproject{
+    width: 3000px;
+    height: 103px;
+    background-color: rgb(0, 0, 0);
+    transform: translateX(40px);
+    transition: .4s all ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.slideleftbtn, .sliderightbtn{
+    position: absolute;
+    z-index: 2;
+}
+.slideleftbtn{
+    left: 0;
+}
+.sliderightbtn{
+    right: 0;
+}
+.slideleftbtn img, .sliderightbtn img{
+    width: 40px;
+    height: 100px;
+}
+.slideleftbtn img:hover, .sliderightbtn img:hover{
+    cursor: pointer;
+}
+.imgofpro{
+    width: 94px;
+    height: 94px;
+    border: 3px solid rgb(0, 0, 0);
+    transition: .2s all ease-in-out;
+}
+.imgofpro:hover{
+    cursor: pointer;
+    border: 3px solid rgb(255, 255, 255);
+}
+#imgpro1{
+    border: 3px solid rgb(255, 255, 255);
+}
+/* End of Project Slide Section */
